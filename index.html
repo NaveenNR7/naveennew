@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<style>
+  body {
+    position: relative;
+    background-color: rgb(255, 255, 255)
+  }
+
+
+  nav-item {
+    flex: 1 1 100%;
+    min-width: 10.3px;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(6, 182, 202);
+    line-height: 80px;
+    margin-inline-start: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  .navbar {
+    background-color: white;
+    height: 80px;
+    /* margin-left: 31%; */
+    text-align: center;
+    justify-content: center;
+  }
+
+
+  .l {
+    margin-top: 2%;
+    margin-left: 90%;
+
+  }
+
+  .img {
+    margin-left: 4%;
+    margin-top: -6%;
+  }
+
+  .nav-item :hover {
+    color: cyan;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h3 {
+
+    text-align: center;
+    color: grey;
+  }
+
+  h5 {
+    text-align: center;
+
+  }
+
+  .n {
+    margin-top: 10%;
+    margin-left: 13%;
+
+  }
+
+  .z {
+    margin-top: -18%;
+    margin-left: 40%;
+  }
+
+  .g {
+    margin-top: 5%;
+  }
+
+  .h {
+    margin-top: -7%;
+    margin-left: 5%;
+  }
+
+  bold {
+    margin-left: 71%;
+    margin-top: -3
+  }
+
+
+  .b {
+    margin-top: -18%;
+    margin-left: 68%;
+  }
+  /* body {
+      cursor: url('https://cdn.custom-cursor.com/packs/426/pack387.png'), auto;
+} */
+
+
+  body {
+ 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    cursor: url('https://cdnb.artstation.com/p/assets/images/images/015/063/221/large/martin-arana-preview02.jpg?1546916621'), url('https://cdnb.artstation.com/p/assets/images/images/015/063/221/large/martin-arana-preview02.jpg?1546916621'), 
+          url('https://cdnb.artstation.com/p/assets/images/images/015/063/221/large/martin-arana-preview02.jpg?1546916621'), auto;
+
+  }
+
+  .iam {
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    /* padding: 15px; */
+    margin-left: 57%;
+    margin-top: -50%;
+    font-family: sans-serif;
+
+  }
+
+  .text {
+    color: rgb(152, 148, 148);
+    border-right: 2px solid rgb(164, 164, 164);
+    font-size: 55px;
+    margin-top: -1%;
+    margin-left: 50%;
+    font-family: sans-serif;
+    color: rgb(161, 158, 158);
+
+  }
+
+  .about-container {
+    position: relative;
+    margin-top: 28%;
+    margin-left: 5%;
+  }
+
+  h4 {
+    text-decoration: underline orange;
+  }
+
+
+
+  .about-container-a {
+    position: relative;
+    margin-top: -20%;
+    margin-left: 75%;
+  }
+
+  .a {
+    margin-left: 58%;
+    margin-top: -38%;
+  }
+
+  .e {
+    margin-top: -36%;
+    margin-left: 55%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  .s {
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+
+  .y {
+    margin-top: -32%;
+    margin-left: 39%;
+  }
+
+  .u {
+    margin-top: -32%;
+    margin-left: 69%;
+  }
+
+  .carousel-item {
+    margin-top: 5%;
+    height: 60vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+  }
+
+  .col-lg-7 {
+    margin-left: 10%;
+  }
+
+  .po {
+    margin-left: 57%;
+    margin-top: -33%;
+  }
+
+  /* .al{
+    margin-top: 10%;
+  } */
+</style>
+
+<body data-bs-spy="scroll" data-bs-target=".nav-link" data-bs-offset="50">
+  <nav class="navbar navbar-expand ">
+
+    <div class="container">
+      <a class="navbar-brand"><img
+          src="https://w7.pngwing.com/pngs/24/817/png-transparent-playstation-4-raiders-of-the-broken-planet-playstation-network-playstation-plus-playstation-electronics-text-trademark.png"
+          class="float-start" width="70px" height="70px"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbar10">
+        <ul class="navbar-nav mx-auto nav-justify justify-content-center text-center  w-100">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section4">Hits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section5">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section6">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section7">MAil</a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn btn-lg btn-outline-primary"> Buy Now</button>
+    </div>
+
+  </nav>
+
+  <div id="section1" style="padding:100px 20px;">
+    <img class="img"
+      src="https://images.pexels.com/photos/687811/pexels-photo-687811.jpeg?cs=srgb&dl=pexels-jaroslav-nymbursk%C3%BD-687811.jpg&fm=jpg"
+      width="556" height="848">
+    <div class="row mt-3">
+      <div class="col-md-12 mx-1">
+        <div class="iam">I'm</div>
+        <div class="text"></div>
+
+        <br>
+
+      </div>
+
+    </div>
+    <div class="e">
+      <button class="btn btn-lg btn-outline-primary"> Download CV</button>
+    </div>
+    <br><br>
+
+  </div>
+
+  <div id="section2" style="padding:100px 20px;">
+
+
+    <div class="about">
+
+
+      <div class="about-container">
+        <h1> About</h1>
+
+        <h4><strong>PLAYSTATION</strong></h4>
+        <br>
+
+        <p>PlayStation (Japanese: プレイステーション, Hepburn: Pureisutēshon,<br> officially abbreviated as PS) is a video
+          gaming
+          brand <br>that consists of five home video game consoles, two handhelds <br> online service and multiple
+          magazines.
+        </p>
+
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png"
+          alt="Logo" style="width:40px;" class="rounded-pill">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png"
+          alt="Logo" style="width:40px;" class="rounded-pill">
+
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo"
+          style="width:50px;" class="rounded-pill">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/002/534/045/original/social-media-twitter-logo-blue-isolated-free-vector.jpg"
+          alt="Logo" style="width:40px;" class="rounded-pill">
+
+
+      </div>
+
+      <div class="about-container-a">
+        <h5>
+          <strong>Introduced :</strong>
+        </h5>
+        <p>December 3, 1994</p>
+        <h5>
+          <strong>Popular games</strong>
+        </h5>
+        <p>
+          Call of Duty: Modern Warfare II
+        </p>
+        <p>
+          FIFA 23
+        </p>
+        <p>
+          God of War Ragnarök
+        </p>
+        <p>
+          Grand Theft Auto V
+        </p>
+
+      </div>
+
+
+    </div>
+
+  </div>
+  <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+    <div class="bg-image hover-overlay ripple rounded-6 p-4 ripple-surface-primary" data-mdb-ripple-color="primary"
+      style="background-color: whitesmoke;">
+
+      <img
+        src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/bootstrap.webp"
+        class="mb-3" alt="MDB Standard - Bootstrap 5" height="35px">
+
+      <p class="mb-2 fw-bold">
+        MDB Standard
+      </p>
+
+      <p class="mb-0">
+        <small class="text-muted">
+          Plain JavaScript
+        </small>
+      </p>
+
+      <a href="/docs/standard/getting-started/installation/">
+        <div class="mask" style="background-color: hsla(209, 62.2%, 45%, 0.08)"></div>
+      </a>
+    </div>
+
+  </div>
+  <br>
+  <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+    <div class="bg-image hover-overlay ripple rounded-6 p-4 ripple-surface-primary" data-mdb-ripple-color="primary"
+      style="background-color: whitesmoke;">
+
+      <img src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/react.webp"
+        class="mb-3" alt="MDB React - Bootstrap 5" style="filter: saturate(200%) brightness(70%)" height="35px">
+
+      <p class="mb-2 fw-bold">MDB React</p>
+
+      <p class="mb-0">
+        <small class="text-muted">
+          React 18
+        </small>
+      </p>
+
+      <a href="/docs/react/getting-started/installation/">
+        <div class="mask" style="background-color: hsla(209, 62.2%, 45%, 0.08)"></div>
+      </a>
+    </div>
+
+  </div>
+  <BR>
+  <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+    <div class="bg-image hover-overlay ripple rounded-6 p-4 ripple-surface-primary" data-mdb-ripple-color="primary"
+      style="background-color: whitesmoke;">
+
+      <img src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/vue.webp"
+        class="mb-3" alt="MDB Vue - Bootstrap 5" height="35px">
+
+      <p class="mb-2 fw-bold">MDB Vue</p>
+
+      <p class="mb-0">
+        <small class="text-muted">
+          Vue 3
+        </small>
+      </p>
+
+      <a href="/docs/vue/getting-started/installation/">
+        <div class="mask" style="background-color: hsla(209, 62.2%, 45%, 0.08)"></div>
+      </a>
+    </div>
+
+  </div>
+  <hr>
+  <div id="section3" style="padding:100px 20px;">
+    <div class="service">
+      <div class="service_container">
+
+        <h1>Services</h1>
+
+        <h3>Minecraft. League of Legends. Fortnite. Tetris. You've probably played one of these games at <br>least
+          once –
+          or heard of them. The evolution of gaming paints a fascinating period in history,<br> and many of us have
+          been a
+          part of it.</h3>
+
+      </div>
+    </div>
+    <div class="n">
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/XBOX_logo_2012.svg/220px-XBOX_logo_2012.svg.png"
+          style="width:75px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>XBOX</strong></h5>
+          <p class="card-text">Xbox is a video gaming brand created and owned by Microsoft. The brand consists of five
+            video game consoles, </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="z">
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/160px-Playstation_logo_colour.svg.png"
+          style="width:70px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Playstation</strong></h5>
+          <p class="card-text">PlayStation, video game console released in 1994 by Sony Computer Entertainment. </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="b">
+      <div class="card" style="width: 18rem;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nintendo.svg/220px-Nintendo.svg.png"
+          style="width:75px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Nintendo</strong></h5>
+          <p class="card-text">The Nintendo Switch[l] is a hybrid video game console developed by Nintendo and released
+            worldwide in most regions on March 3, 2017. </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <br><br><br>
+  <hr>
+  <div id="section5" style="padding:100px 20px;">
+    <div class="container">
+      <div class="blog-container">
+        <h1>Latest News & Insights</h1>
+        <h5>Discover the latest updates Of the Games , including new Seasons, events and more. </h5>
+      </div>
+    </div>
+    <div class="s">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.mos.cms.futurecdn.net/AiYoZaGW2Y3vZUSBbYrioL-970-80.jpg.webp" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Marvel's Spider-Man 2 PS5 release date</h5>
+          <p class="card-text">The Marvel's Spider-Man 2 release date is set for October 20, 2023. Insomniac
+            confirmed the news at Summer Game Fest, with creative director Bryan Intihar</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="y">
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/xbox-game-pass-neon-sign.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Xbox Game Pass game For money</h5>
+          <p class="card-text">Microsoft used its Xbox Games Showcase event to confirm that racing game Forza
+            Motorsport is launching on October 10 as a day one Xbox Game Pass game. Alongside Halo and Gears of
+            War</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="u">
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/santa-monica-studios-god-of-war-hiring.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">God of War Developer Hiring </h5>
+          <p class="card-text">The creators behind God of War, Santa Monica Studio, recently posted a number of
+            job listings seeking out new talent to help with the development of their new unannounced title.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <hr>
+  <div id="section4" style="padding:100px 20px">
+
+
+    <h1>
+      Game Hits
+    </h1>
+    <h3> let's rewind to look at the biggest surprises, upsets, and unexpected moments in the video game world</h3>
+    <br>
+    <div class="accordion" id="accordionExample" style="width:500px">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            <strong>2005 , 2006 , 2007 , 2008 , 2009 , 2010</strong>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>2005 | Resident Evil 4</strong>
+            <br><strong>2006 | Gears of War</strong><Br><strong>2007 | Super Mario Galaxy</strong><br>
+            <strong>2008 | Metal Gear Solid 4: Guns of the Patriots</strong><br><strong>2009 | Demon's
+              Souls</strong><br><strong>
+              2010 | Red Dead Redemption
+            </strong>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <strong> 2011 , 2012 , 2013 , 2014 , 2015 , 2016</strong>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>2011 | The Elder Scrolls V: Skyrim</strong><br>
+            <strong>2012 | Journey</strong><br>
+            <strong>2013 | The Legend of Zelda: A Link Between Worlds</strong><br>
+            <strong>2014 | Middle-earth: Shadow of Mordor</strong><br>
+            <strong>2015 | The Witcher 3: Wild Hunt</strong><br>
+            <strong>2016 | Overwatch</strong><br>
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <strong> 2017 , 2018 , 2019 , 2020 , 2021 , 2022</strong>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>2017 | The Legend of Zelda: Breath of the Wild</strong><br>
+            <strong>2018 | Red Dead Redemption 2</strong><br>
+            <strong>2019 | Sekiro: Shadows Die Twice</strong><br>
+            <strong>2020 | Half-Life: Alyx</strong><br>
+            <strong>2021 | Deathloop</strong><br>
+            <strong>2022 | Elden Ring</strong><br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <div class="container">
+
+        <p>
+          <bold> Latest Game Hit : Elden Ring (2022)</bold>
+        </p>
+        <div class="g">
+          <img src="https://www.gamespot.com/a/uploads/scale_super/1597/15971423/4076386-2045328830-39449.jpg"
+            class="rounded float-end" style="height:400px ;width:400px">
+
+          <img src="https://www.gamespot.com/a/uploads/scale_super/1552/15524586/3064481-thatdog.jpg"
+            class="rounded float-start" style="height:400px ;width:400px">
+        </div>
+        <div class="h">
+          <p>first Game Hit : Resident Evil 4 (2005)</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <hr>
+  <h1>These are Various Playstation consoles</h1>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active"
+        style="background-image: url('https://images-cdn.ubuy.co.in/635338bfe896d44d7f1c11b8-playstation-2-console-black-renewed.jpg')">
+        <div class="carousel-caption">
+          <h2>Play Station 2</h2>
+
+        </div>
+      </div>
+      <div class="carousel-item"
+        style="background-image: url('https://cdn.pixabay.com/photo/2016/02/14/20/37/game-console-playstation-3-1200184_1280.jpg')">
+        <div class="carousel-caption">
+          <h2>Play Station 3</h2>
+        </div>
+      </div>
+      <div class="carousel-item"
+        style="background-image: url('https://m.media-amazon.com/images/I/71yZAhxpeTL._AC_UF1000,1000_QL80_.jpg')">
+        <div class="carousel-caption">
+          <h2>Play Station 4</h2>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+  <br><br><br><br><br>
+  <hr>
+  <div id="section6" style="padding:100px 20px;">
+    <h1>Contact</h1>
+    <br><br><br><br>
+    <div class="col-lg-7 col-md-12 mb-4 mb-md-0">
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+          <!-- Material outline input -->
+          <div class="md-form md-outline mb-0">
+            <label for="form-first-name">First name</label>
+            <input type="text" id="form-first-name" class="form-control">
+
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+          <!-- Material outline input -->
+          <label for="form-last-name">Last name</label>
+          <div class="md-form md-outline mb-0">
+            <input type="text" id="form-last-name" class="form-control">
+
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <!-- Material outline input -->
+      <label for="form-email">E-mail</label>
+      <div class="md-form md-outline mt-3">
+        <input type="email" id="form-email" class="form-control">
+
+      </div>
+
+
+      <label for="form-subject">Subject</label>
+      <div class="md-form md-outline">
+        <input type="text" id="form-subject" class="form-control">
+
+      </div>
+
+
+      <label for="form-message">How we can help?</label>
+      <div class="md-form md-outline mb-3">
+        <textarea id="form-message" class="md-textarea form-control" rows="3"></textarea>
+
+      </div>
+
+      <button type="submit" class="btn btn-info btn-md ml-0">Send Message<i
+          class="far fa-paper-plane ml-2"></i></button>
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+  <!--Grid row-->
+
+
+  </section>
+  <!--Section: Content-->
+
+  <div class="col-lg-12 text-center">
+    <div class="po">
+      <ul class="list-unstyled mb-0">
+        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+          <p>San Francisco, CA 94126, USA</p>
+        </li>
+
+        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+          <p>+ 01 234 567 89</p>
+        </li>
+
+        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+          <p>contact@playstion.com</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  <!--Grid column-->
+
+  </div>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <br>
+  </div>
+
+  <footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+    <hr>
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>Play-station
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright: Playstation-Sony
+
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  </div>
+
+  <script>
+    var typing = new Typed(".text", {
+      strings: ["", " an Game developer", "  Game Tester", "Game Designer"],
+      typeSpeed: 100,
+      backSpeed: 40,
+      loop: true,
+    });
+    ScrollReveal().reveal('.about-container');
+    ScrollReveal().reveal('.about-container-a', { delay: 500 });
+    ScrollReveal().reveal('.row mt-5', { delay: 1000 });
+    ScrollReveal().reveal('.b', { delay: 1000 });
+    ScrollReveal().reveal('.z', { delay: 2000 });
+    ScrollReveal().reveal('.n', { delay: 3000 });
+    ScrollReveal().reveal('.service', { delay: 1000 });
+    ScrollReveal().reveal('.s', { delay: 1000 });
+    ScrollReveal().reveal('.y', { delay: 2000 });
+    ScrollReveal().reveal('.u', { delay: 3000 });
+    ScrollReveal().reveal('.blog-container', { delay: 1000 });
+    ScrollReveal().reveal('.accordion', { delay: 2000 });
+    ScrollReveal().reveal('.g', { delay: 3000 });
+    ScrollReveal().reveal('.n', { delay: 2000 });
+    ScrollReveal().reveal('.col-lg-7', { delay: 2500 });
+
+  </script>
+
+
+  <body>
+
+  </body>
+
+</html>
